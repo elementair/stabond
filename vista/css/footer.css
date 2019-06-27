@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "montserrat-estrabold";
+    src: url(../font/Montserrat-ExtraBold.ttf) format("truetype");
+}
+@font-face {
+    font-family: "montserrat-italic";
+    src: url(../font/Montserrat-Italic.ttf) format("truetype");
+}
+@font-face {
+    font-family: "montserrat-medium";
+    src: url(../font/Montserrat-Medium.ttf) format("truetype");
+}
+@font-face {
+    font-family: "montserrat-semibold";
+    src: url(../font/Montserrat-SemiBold.ttf) format("truetype");
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.footer i{
+   
+font-size: 25px;
+top: 1px;
+padding-left: 20%;
+
+}
+.footer{
+    margin-top: -5px;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    background-color:#00ae52;
+    color: #fff;
+    font-family: "montserrat-medium";
+bottom: 0;
+}
+.footer td{
+    padding: 10px 5px;
+
+    }
+
+.copyrigth{
+	font-family: "montserrat-medium";
+	font-size: 12px;
+	width: 100%;
+	display: inline-block;
+	position: relative;
+	padding: 10px;
+	background-color:#029B4A;
+	text-align: center;
+
+}
+.footerlog{
+	text-align: center;
+	width: 150px;
+}
